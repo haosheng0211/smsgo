@@ -1,0 +1,34 @@
+{
+    "name": "smsgo/smsgo",
+    "description": "一個用於使用 SMSGo 服務發送簡訊的 Composer 包。",
+    "keywords": [
+        "smsgo",
+        "sms",
+        "簡訊",
+        "發送簡訊",
+        "簡訊服務",
+        "API"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr.Jin",
+            "email": "haosheng0211@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^5.0|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SMSGo\\": "src/"
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.25"
+    },
+    "scripts": {
+        "fixer": "vendor/bin/php-cs-fixer fix"
+    }
+}
